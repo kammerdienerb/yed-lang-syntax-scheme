@@ -92,7 +92,6 @@ int yed_plugin_boot(yed_plugin *self) {
 
         APUSH("&code-string");
             RANGE("\""); SKIP("\\\\\""); ENDRANGE("\"");
-            RANGE("'");  SKIP("\\\\'");  ENDRANGE("'");
         APOP();
 
         APUSH("&code-number");

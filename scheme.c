@@ -111,6 +111,7 @@ int yed_plugin_boot(yed_plugin *self) {
         APUSH("&code-keyword");
             KWD("define");
             KWD("let");
+            KWD("letrec");
             KWD("lambda");
         APOP();
     ENDSYN();
